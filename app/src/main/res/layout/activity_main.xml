@@ -88,16 +88,8 @@
             android:layout_height="wrap_content"
             android:text="Lưu"
             android:layout_marginBottom="8dp" />
-
         <Button
-            android:id="@+id/btnThongKe"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Thống kê"
-            android:layout_marginBottom="8dp" />
-
-        <Button
-            android:id="@+id/btnXoa_2108"
+            android:id="@+id/btnXoa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="3. Xóa trắng form"
@@ -112,14 +104,6 @@
             android:textColor="#2E7D32"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
-
-        <TextView
-            android:id="@+id/tvThongKe"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:textColor="#1565C0"
-            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>

@@ -106,5 +106,17 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Đã lưu $ma", Toast.LENGTH_SHORT).show()
 
         }
+        // 3. NÚT XÓA FORM (btnXoa2108)
+        b.btnXoa.setOnClickListener {
+             b.edtTen.text?.clear()
+             b.edtSoLuong.text?.clear()
+             b.edtDonGia.text?.clear()
+             b.edtTen.error = null
+             b.edtSoLuong.error = null
+             b.edtDonGia.error = null
+             b.tvKetQua.text = ""
+             b.edtTen.requestFocus()
+             Toast.makeText(this, "Đã xóa sạch form!",Toast.LENGTH_SHORT).show()
+        }
     }
 }
